@@ -1,13 +1,70 @@
 /* Geral*/
 *{
-    font-family: "Roboto";
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
-   
+    font-family: "Roboto";
 }
-.body{
+body{
     display: flex;
     flex-wrap: wrap;
+}
+#about-container{
+    flex: 1.4;
+    padding:  2rem 4rem;
+    margin-bottom: 1rem;
+}
+#about-container h2{
+    font-size: 2.4rem;
+    max-width: 500px;
+    margin-bottom: 1rem;
+}
+#brand img{
+    height: 50px;
+    margin-right: 0.6rem;
+}
+#brand{
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem ;
+}
+#form-container{
+    flex: 1;
+}
+#exclusive{
+    text-transform: uppercase;
+    color: #0075ff;
+font-weight: bold ;
+font-size: 0.8rem;
+margin-bottom: 1rem;
+}
+#date{
+    text-transform: uppercase;
+    color:#aaa;
+    margin-bottom: 1rem;
+}
+#description{
+    margin-bottom: 1rem;
+    line-height: 1.4rem;
+    max-width: 500px;
+}
+#about-container h4{
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+#users-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap : 1rem;
+}
+#user-card{
+    border: 2px solid #ccc;
+    padding: 1rem;
+    width: 180px;
+    text-align: center;
+}
+#user-card img{
+    height: 100px;
+ border-radius: 50%;
+ margin-bottom: 1rem;
 }
