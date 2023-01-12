@@ -28,9 +28,7 @@ body{
     align-items: center;
     font-size: 0.8rem ;
 }
-#form-container{
-    flex: 1;
-}
+
 #exclusive{
     text-transform: uppercase;
     color: #0075ff;
@@ -69,8 +67,83 @@ margin-bottom: 1rem;
  margin-bottom: 1rem;
 }
 .user-card .user-name{
+font-weight: bold;
+margin-bottom: 0.6rem;
 
 }
 .user-card .user-role{
+color: #aaa;
+font-size: 0.9rem;
+}
+#form-container{
+    flex: 1;
+    background-image:url("/img/pattern.png");
+    background-size: cover;
+    color: #fff;
+}
+#form-inner{
+    margin: 3rem;
+    padding: 3rem;
+    border: 2px solid #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#form-inner h3{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+#form-inner h4{
+    margin-bottom: 1rem;
+}
+#form-inner p{
+    margin-bottom: 1rem;
+}
+#register-form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+#name-container{
+    display: flex;
+    gap: 0.5rem;
+}
+#register-form input{
+    padding: 0.8rem 0.6rem;
+    border: none;
+    border-radius: 3px;
+}
+#email{
+    min-width: 100%;
+}
+#register-form input[type = "submit"]{
+background-color:transparent ;
+color: #fff;
+border: 2px solid #fff;
+font-size: 1.1rem;
+font-weight: bold;
+cursor: pointer;
+transition: 0.4s;
+}
+#beneficts{
+    text-align: left;
+    align-self: start;
+}
+#register-form input[type = "submit"]:hover{
+    background-color: #fff;
+    color: #0075ff;
+
 
 }
+#beneficts h4{
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+#beneficts ul{
+ list-style-position: inside;
+  }
+  #beneficts li{
+    margin-bottom: 0.5rem;
+  }
